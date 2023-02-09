@@ -4,5 +4,27 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(242, 234, 234);
+}
+
+.griglia{
+    width: culc(100% / 7 );
+}
+.d-flex{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.img {
+    width: 30vh;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.box-img {
+    position: relative;
+    top: 0;
+    border: 1px solid black;
+    
+
 }
