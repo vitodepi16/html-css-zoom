@@ -78,5 +78,18 @@ i{
 .mic{
   width: 20vw;
   position: relative;
- 
+}
+.comtainer{
+    padding: 10px;
+    text-align: center;
+}
+.chiudi{
+ background-color: red;
+    padding: 10px;
+    border-radius: 30%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.share{
+    color: green;
 }
