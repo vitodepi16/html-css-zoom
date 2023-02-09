@@ -55,16 +55,28 @@ header{
 
 footer{
     background-color: #393939;
-    height: 5vw;
+    height: 3vw;
     width: 100%;
 
     bottom: 0;
     position: fixed;
 }
 .tools{
-    color:white
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    width: 20px;
+    justify-content: center;
+}
+.flex-icon{
+    display: flex;
+    flex-direction: row wrap;
+    text-align: end;
 }
 .mic{
-    width: 1vw;
-    position: absolute;
+  width: 20vw;
+  position: relative;
+ 
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +14,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Zoom</title>
 </head>
+
 <body>
     <header>
         <button class="buttom"><i class="fa-solid fa-maximize"></i></button>
-        <button class="buttom"><i class="fa-thin fa-grid">Speaker view</i></button>
-        
+        <button class="buttom"><i class="fa-solid fa-grip"></i>Speaker view</i></button>
+
     </header>
     <div class="griglia ">
         <div class="box-img d-flex">
@@ -163,12 +165,54 @@
     </div>
     <footer>
         <div class="tools">
-            <div class="mic">
-                <i class="fa-solid tools fa-microphone"> ddd</i>
-            
-            <div class="video"></div>
-           </div>
-        </div>
+            <div class="mic flex-icon">
+                <i class="fa-solid fa-microphone"> </i>
+                <p> mute</p>
+
+                <div class="video flex-icon">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Stop Video</p>
+                </div>
+            </div>
+            <div class="central-tools">
+                <div class="invite flex-icon">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <p>invita</p>
+
+                    <div class=" flex-icon">
+                        <i class="fa-solid fa-user-group"></i>
+                        <p>Manage partecipant</p>
+                        <div class=" flex-icon">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                            <p>Polling</p>
+                            <div class=" flex-icon">
+                                <i class="fa-solid fa-share-from-square"></i>
+                                <p>share</p>
+                                <div class="flex-icon">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <p>chat</p>
+                                    <div class="flex-icon">
+                                        <i class="fa-solid fa-record-vinyl"></i>
+                                        <p>Record</p>
+                                        <div class="flex-icon">
+                                            <i class="fa-solid fa-table-cells-large"></i>
+                                            <p>Breakout Rooms</p>
+                                            <div class="flex-icon">
+                                                <i class="fa-solid fa-ellipsis"></i>
+                                                <p>more</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="end">
+                <button>end</button>
+            </div>
     </footer>
 </body>
+
 </html>
