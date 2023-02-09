@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #000000;
     overflow-y: auto;
 }
 
@@ -52,10 +52,17 @@ header{
 }
 
 footer{
-    background-color: black;
-    height: 10vw;
+    background-color: #393939;
+    height: 5vw;
     width: 100%;
-    position: relative;
+
     bottom: 0;
     position: fixed;
+}
+.tools{
+    color:white
+}
+.mic{
+    width: 1vw;
+    position: absolute;
 }
