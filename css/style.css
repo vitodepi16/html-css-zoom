@@ -27,8 +27,9 @@ body {
     flex-flow: row wrap;
     align-items: flex-start;
     align-content: flex-start;
-
-
+    overflow-y: auto;
+   
+    position: absolute;
 }
 
 .d-flex {
@@ -40,7 +41,6 @@ body {
 
 .img {
     width: 100%;
-
     display: block;
     position: relative;
 
@@ -50,7 +50,7 @@ body {
     position: relative;
     top: 0;
     padding: 4px;
-    width: 220px;
+    width: 200px;
 
 }
 
@@ -61,16 +61,14 @@ header {
 }
 
 .user-mic {
-    background-color: var(--cadet-gray)
-    width: 30%;
+    background-color: var(--cadet-gray);
     position: absolute;
     left: 2;
     bottom: 8px;
     text-align: start;
-    color: black;
+    color: #ffffff;
     cursor: pointer;
-    font-size: 0.5rem;
-    margin-right: 80%;
+    font-size: 0.9rem;
 }
 
 .buttom {
@@ -81,10 +79,9 @@ header {
 }
 
 footer {
-    background-color: #393939;
-    height: 3vw;
+    background-color: var(--davys-gray);
+    height: 4vw;
     width: 100%;
-
     bottom: 0;
     position: fixed;
 }
@@ -93,13 +90,13 @@ footer {
     color: white;
     display: flex;
     justify-content: space-between;
+    
 }
-
-i {
-    width: 20px;
+.arrow{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-
 .flex-icon {
     display: flex;
     flex-direction: row wrap;
@@ -125,5 +122,5 @@ i {
 }
 
 .share {
-    color: green;
+    color: var(--lime-green);
 }
