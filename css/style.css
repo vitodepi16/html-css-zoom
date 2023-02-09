@@ -5,6 +5,7 @@
 }
 body {
     background-color: rgb(255, 255, 255);
+    overflow-y: auto;
 }
 
 .griglia{
@@ -14,6 +15,7 @@ body {
     flex-flow: row wrap;
     align-items: flex-start;
     align-content: flex-start;
+   
 
 }
 .d-flex{
@@ -51,7 +53,9 @@ header{
 
 footer{
     background-color: black;
-    height: 10vh;
+    height: 10vw;
+    width: 100%;
     position: relative;
     bottom: 0;
+    position: fixed;
 }
