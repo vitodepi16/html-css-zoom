@@ -1,35 +1,46 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* SCSS HEX */
+    --davys-gray: #4A4A4Aff;
+    --cadet-gray: #9FAFBEff;
+    --black: #000000ff;
+    --lime-green: #4CCE00ff;
+    --prussian-blue: #1B2E45ff;
+}
+
 body {
-    background-color: #000000;
+    background-color: var(--black);
     overflow-y: auto;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans', sans-serif;
 }
 
-.griglia{
+.griglia {
     margin-left: 90px;
     margin-right: 30px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     align-content: flex-start;
-   
+
 
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    width: calc(100% / 7 );
+    width: calc(100% / 7);
 }
 
 .img {
     width: 100%;
-    
+
     display: block;
     position: relative;
 
@@ -42,13 +53,15 @@ body {
     width: 220px;
 
 }
-header{
+
+header {
     display: flex;
     flex-direction: row-reverse;
     padding: 10px;
 }
-.user-mic{
-      background-color: rgba(154, 154, 154, 0.5);
+
+.user-mic {
+    background-color: var(--cadet-gray)
     width: 30%;
     position: absolute;
     left: 2;
@@ -59,14 +72,15 @@ header{
     font-size: 0.5rem;
     margin-right: 80%;
 }
-.buttom{
+
+.buttom {
     background-color: rgb(183, 183, 183);
     color: white;
     padding: 5px;
-   
+
 }
 
-footer{
+footer {
     background-color: #393939;
     height: 3vw;
     width: 100%;
@@ -74,35 +88,42 @@ footer{
     bottom: 0;
     position: fixed;
 }
-.tools{
-    color:white;
+
+.tools {
+    color: white;
     display: flex;
     justify-content: space-between;
 }
-i{
+
+i {
     width: 20px;
     justify-content: center;
 }
-.flex-icon{
+
+.flex-icon {
     display: flex;
     flex-direction: row wrap;
     text-align: end;
 }
-.mic{
-  width: 20vw;
-  position: relative;
+
+.mic {
+    width: 20vw;
+    position: relative;
 }
-.comtainer{
+
+.comtainer {
     padding: 10px;
     text-align: center;
 }
-.chiudi{
- background-color: red;
+
+.chiudi {
+    background-color: red;
     padding: 10px;
     border-radius: 30%;
     margin-top: 5px;
     margin-right: 10px;
 }
-.share{
+
+.share {
     color: green;
 }
