@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(242, 234, 234);
+body {
+    background-color: rgb(0, 0, 0);
 }
 
 .griglia{
@@ -32,7 +32,18 @@ body{
     position: relative;
     top: 0;
     border: 1px solid black;
-    padding: 10px;
+    padding: 1px;
     width: 220px;
 
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.buttom{
+    background-color: rgb(183, 183, 183);
+    color: white;
+    padding: 5px;
+   
 }
