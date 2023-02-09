@@ -6,6 +6,8 @@
 body {
     background-color: #000000;
     overflow-y: auto;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .griglia{
@@ -35,7 +37,7 @@ body {
     position: relative;
     top: 0;
     border: 1px solid black;
-    padding: 3px;
+    padding: 0.5px;
     width: 220px;
 
 }
