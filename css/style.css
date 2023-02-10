@@ -22,17 +22,26 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
+main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    overflow-x: auto;
+    width: 80%;
+    height: 100%;
+    gap: 10px;
+    overflow-y: auto;
+}
 .griglia {
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     align-content: flex-start;
-    overflow-y: auto;
     position: absolute;
-    gap: 10px;
-    width: calc((100% / 7) - 10px);
+    width: calc(100% / 7);
     width: 100%;
 }
 
